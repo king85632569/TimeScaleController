@@ -1,9 +1,9 @@
 # TimeScaleController
 場景時間控制器
 
-主要做法：
+主要說明：
 
-是用OnSceneLoaded和OnSceneUnloaded判定是否載入或關閉場景並呼叫UpdateTimeScale()，然後UpdateTimeScale()裡面是用foreach迴圈判定是否有運行特定場景，有的話就呼叫SetTimeScale()去設定Time.timeScale的值。
+用OnSceneLoaded和OnSceneUnloaded判定是否載入或關閉場景並呼叫UpdateTimeScale()，然後UpdateTimeScale()裡面是用foreach迴圈判定是否有運行特定場景，有的話就呼叫SetTimeScale()去設定Time.timeScale的值。
 
 注意事項：
 
