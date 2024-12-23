@@ -1,5 +1,5 @@
 # TimeScaleController
-場景時間控制器
+Unity場景時間控制器
 
 主要說明：
 
